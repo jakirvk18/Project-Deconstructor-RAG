@@ -1,4 +1,4 @@
-# ProjectDeconstructor
+# Project Deconstructor RAG Model
 
 A local RAG-powered codebase analysis tool. Point it at any public GitHub repository and chat with the code — ask architectural questions, run security audits, open individual files, and get answers grounded in the actual source.
 
