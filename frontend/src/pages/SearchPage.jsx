@@ -50,7 +50,7 @@ const SearchPage = () => {
 
   return (
     <div className=" min-h-screen w-full flex flex-col justify-center items-center gap-y-6 px-4 ">
-      <FloatingStars />
+      <FloatingStars warpSpeed={loading} />
       
       {/* Title Header with Tech Vibe */}
       <div className="text-center space-y-2">
@@ -59,7 +59,7 @@ const SearchPage = () => {
           <img src="./icon.png" alt="Logo" style={{ width: 70, height: 60 }} />
         </span>
         <h1 className="text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-slate-100 via-cyan-400 to-slate-100 font-bold tracking-tight font-sans ">
-          ProjectDeconstructor RAG
+          Project Deconstructor RAG
         </h1>
         <p className="text-xs tracking-widest text-slate-500 font-sans">
           Deep-dive architecture auditing via semantic RAG vectors.
