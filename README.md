@@ -165,11 +165,7 @@ Keyword matching uses whole-word regex (`\b`) so `"debug"` doesn't accidentally 
 - Re-fetching a repo that's already indexed will clear the old vector store and re-index from scratch, so the index stays clean.
 - The first query after cloning a large repo may be slow while ChromaDB warms up.
 
----
 
-## License
-
-MIT
 
 ---
 ## Developer
